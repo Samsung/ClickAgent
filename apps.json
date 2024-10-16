@@ -1,0 +1,314 @@
+{
+    "com.google.android.providers.media.module": {
+        "label": "Media picker",
+        "apk_path": "/apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@350820300/MediaProviderGoogle.apk"
+    },
+    "com.android.providers.contacts": {
+        "label": "Contacts Storage",
+        "apk_path": "/system/priv-app/ContactsProvider/ContactsProvider.apk"
+    },
+    "com.amazon.mShop.android.shopping": {
+        "label": "Amazon Shopping",
+        "apk_path": "/data/app/~~UgSzpPR3hJPlv1-3WwrYOQ==/com.amazon.mShop.android.shopping-CM3r79BdF0S8RpdV9EvBvQ==/base.apk"
+    },
+    "com.google.android.calendar": {
+        "label": "Calendar",
+        "apk_path": "/product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk"
+    },
+    "com.google.android.contacts": {
+        "label": "Contacts",
+        "apk_path": "/product/app/GoogleContacts/GoogleContacts.apk"
+    },
+    "com.google.android.cellbroadcastreceiver": {
+        "label": "Wireless emergency alerts",
+        "apk_path": "/apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@350820300/GoogleCellBroadcastApp.apk"
+    },
+    "com.twitter.android": {
+        "label": "X",
+        "apk_path": "/data/app/~~MmEu_4G5RjjPJZfgCq8sTQ==/com.twitter.android-NPxqQdnF8wg49NG6Jto-lw==/base.apk"
+    },
+    "com.android.wallpaper": {
+        "label": "Wallpaper & style",
+        "apk_path": "/system_ext/priv-app/ThemePicker/ThemePicker.apk"
+    },
+    "com.google.android.captiveportallogin": {
+        "label": "Captive Portal Login",
+        "apk_path": "/system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle.apk"
+    },
+    "com.android.keychain": {
+        "label": "Key Chain",
+        "apk_path": "/system/app/KeyChain/KeyChain.apk"
+    },
+    "com.amazon.mp3": {
+        "label": "Amazon Music",
+        "apk_path": "/data/app/~~AQcaXc760fJvQqs8EQoYPQ==/com.amazon.mp3-QDTcyfRR9ZHkmtBp4hwddQ==/base.apk"
+    },
+    "com.google.android.apps.wellbeing": {
+        "label": "Digital Wellbeing",
+        "apk_path": "/product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk"
+    },
+    "com.google.android.adservices.api": {
+        "label": "Ad Privacy",
+        "apk_path": "/apex/com.android.adservices/priv-app/AdServicesApkGoogle@350820260/AdServicesApkGoogle.apk"
+    },
+    "com.google.android.permissioncontroller": {
+        "label": "Permission controller",
+        "apk_path": "/apex/com.android.permission/priv-app/GooglePermissionController@350820360/GooglePermissionController.apk"
+    },
+    "com.android.providers.calendar": {
+        "label": "Calendar Storage",
+        "apk_path": "/system/priv-app/CalendarProvider/CalendarProvider.apk"
+    },
+    "com.google.android.documentsui": {
+        "label": "Files",
+        "apk_path": "/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk"
+    },
+    "com.google.android.devicelockcontroller": {
+        "label": "DeviceLockController",
+        "apk_path": "/apex/com.android.devicelock/priv-app/DeviceLockControllerGoogle@AE3A.240806.005/DeviceLockControllerGoogle.apk"
+    },
+    "com.android.managedprovisioning": {
+        "label": "Work Setup",
+        "apk_path": "/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk"
+    },
+    "com.amazon.avod.thirdpartyclient": {
+        "label": "Prime Video",
+        "apk_path": "/data/app/~~0R5HgnR6pPeKghenvQPoAg==/com.amazon.avod.thirdpartyclient-eaLscYwN1mCBc7qt0fpY3Q==/base.apk"
+    },
+    "com.google.android.gm": {
+        "label": "Gmail",
+        "apk_path": "/product/app/PrebuiltGmail/PrebuiltGmail.apk"
+    },
+    "com.android.carrierdefaultapp": {
+        "label": "Carrier Communications",
+        "apk_path": "/system/app/CarrierDefaultApp/CarrierDefaultApp.apk"
+    },
+    "com.google.android.hotspot2.osulogin": {
+        "label": "OsuLogin",
+        "apk_path": "/apex/com.android.wifi/app/OsuLoginGoogle@350820300/OsuLoginGoogle.apk"
+    },
+    "com.google.android.deskclock": {
+        "label": "Clock",
+        "apk_path": "/product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk"
+    },
+    "com.android.mtp": {
+        "label": "MTP Host",
+        "apk_path": "/system/priv-app/MtpService/MtpService.apk"
+    },
+    "com.spotify.music": {
+        "label": "Spotify",
+        "apk_path": "/data/app/~~YaoJBYpv9XezSu5YhczfpQ==/com.spotify.music-fhsS7Qv6ExU8ObnVoh6gWA==/base.apk"
+    },
+    "com.google.android.settings.intelligence": {
+        "label": "Settings Services",
+        "apk_path": "/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk"
+    },
+    "com.android.systemui": {
+        "label": "System UI",
+        "apk_path": "/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"
+    },
+    "com.google.android.dialer": {
+        "label": "Phone",
+        "apk_path": "/product/priv-app/GoogleDialer/GoogleDialer.apk"
+    },
+    "com.netflix.mediaclient": {
+        "label": "Netflix",
+        "apk_path": "/data/app/~~jJtiNk3eQOrEdBNgAIQGrw==/com.netflix.mediaclient-pibjxmEmS7-ZNJ8dx3fVKg==/base.apk"
+    },
+    "com.google.android.apps.nexuslauncher": {
+        "label": "Pixel Launcher",
+        "apk_path": "/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk"
+    },
+    "com.android.devicediagnostics": {
+        "label": "DeviceDiagnostics",
+        "apk_path": "/system/priv-app/DeviceDiagnostics/DeviceDiagnostics.apk"
+    },
+    "com.google.android.apps.wallpaper": {
+        "label": "Wallpaper & style",
+        "apk_path": "/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk"
+    },
+    "com.google.android.webview": {
+        "label": "Android System WebView",
+        "apk_path": "/data/app/~~U1xKbZRrkB2wmNM8iioOEg==/com.google.android.webview-SvloNu-Leb-qxTYd3E02EA==/base.apk"
+    },
+    "com.android.egg": {
+        "label": "Android Easter Egg",
+        "apk_path": "/system/app/EasterEgg/EasterEgg.apk"
+    },
+    "com.android.camera2": {
+        "label": "Camera",
+        "apk_path": "/product/app/Camera2/Camera2.apk"
+    },
+    "com.google.android.soundpicker": {
+        "label": "Sounds",
+        "apk_path": "/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk"
+    },
+    "com.google.android.packageinstaller": {
+        "label": "Package installer",
+        "apk_path": "/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk"
+    },
+    "com.google.android.safetycenter.resources": {
+        "label": "Google Safety Center Resources",
+        "apk_path": "/apex/com.android.permission/priv-app/GoogleSafetyCenterResources@350820360/GoogleSafetyCenterResources.apk"
+    },
+    "com.google.android.apps.youtube.music": {
+        "label": "YouTube Music",
+        "apk_path": "/product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk"
+    },
+    "com.android.stk": {
+        "label": "SIM Toolkit",
+        "apk_path": "/system/app/Stk/Stk.apk"
+    },
+    "com.android.settings": {
+        "label": "Settings",
+        "apk_path": "/system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk"
+    },
+    "com.android.bips": {
+        "label": "Default Print Service",
+        "apk_path": "/system/priv-app/BuiltInPrintService/BuiltInPrintService.apk"
+    },
+    "com.google.android.projection.gearhead": {
+        "label": "Android Auto",
+        "apk_path": "/product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk"
+    },
+    "com.google.android.videos": {
+        "label": "Google TV",
+        "apk_path": "/data/app/~~EgGx4tdcxPZuItROFFg4ww==/com.google.android.videos-xxtArDNyptceHjhgg5dr1w==/base.apk"
+    },
+    "com.google.android.feedback": {
+        "label": "Market Feedback Agent",
+        "apk_path": "/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk"
+    },
+    "com.android.chrome": {
+        "label": "Chrome",
+        "apk_path": "/data/app/~~qh01RDBcjZrBJ-uPSsOIyg==/com.android.chrome-2S1hgSbBBlaBq4AIDmJqOw==/Chrome.apk"
+    },
+    "com.google.android.apps.maps": {
+        "label": "Maps",
+        "apk_path": "/product/app/Maps/Maps.apk"
+    },
+    "com.google.android.as": {
+        "label": "Android System Intelligence",
+        "apk_path": "/product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk"
+    },
+    "com.android.musicfx": {
+        "label": "MusicFX",
+        "apk_path": "/system/priv-app/MusicFX/MusicFX.apk"
+    },
+    "com.google.android.inputmethod.latin": {
+        "label": "Gboard",
+        "apk_path": "/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk"
+    },
+    "com.google.android.marvin.talkback": {
+        "label": "Android Accessibility Suite",
+        "apk_path": "/product/app/talkback/talkback.apk"
+    },
+    "com.android.providers.downloads.ui": {
+        "label": "Downloads",
+        "apk_path": "/system/priv-app/DownloadProviderUi/DownloadProviderUi.apk"
+    },
+    "com.google.android.healthconnect.controller": {
+        "label": "Health\u00a0Connect",
+        "apk_path": "/apex/com.android.healthfitness/priv-app/HealthConnectControllerGoogle@350820300/HealthConnectControllerGoogle.apk"
+    },
+    "com.android.intentresolver": {
+        "label": "IntentResolver",
+        "apk_path": "/system/priv-app/IntentResolver/IntentResolver.apk"
+    },
+    "com.google.android.apps.docs": {
+        "label": "Drive",
+        "apk_path": "/product/app/Drive/Drive.apk"
+    },
+    "com.google.android.apps.safetyhub": {
+        "label": "Personal Safety",
+        "apk_path": "/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk"
+    },
+    "com.google.android.apps.restore": {
+        "label": "Data Restore Tool",
+        "apk_path": "/product/priv-app/GoogleRestorePrebuilt-v526684/GoogleRestorePrebuilt-v526684.apk"
+    },
+    "com.android.wallpaper.livepicker": {
+        "label": "Live Wallpaper Picker",
+        "apk_path": "/system/priv-app/LiveWallpapersPicker/LiveWallpapersPicker.apk"
+    },
+    "com.android.phone": {
+        "label": "Phone Services",
+        "apk_path": "/system/priv-app/TeleService/TeleService.apk"
+    },
+    "com.android.traceur": {
+        "label": "System Tracing",
+        "apk_path": "/system/app/Traceur/Traceur.apk"
+    },
+    "com.google.android.as.oss": {
+        "label": "Private Compute Services",
+        "apk_path": "/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk"
+    },
+    "com.google.android.apps.messaging": {
+        "label": "Messages",
+        "apk_path": "/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk"
+    },
+    "com.google.android.tts": {
+        "label": "Speech Recognition and Synthesis from Google",
+        "apk_path": "/product/app/GoogleTTS/GoogleTTS.apk"
+    },
+    "com.google.android.googlequicksearchbox": {
+        "label": "Google",
+        "apk_path": "/product/priv-app/Velvet/Velvet.apk"
+    },
+    "com.google.android.avatarpicker": {
+        "label": "Google Avatar Picker",
+        "apk_path": "/system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk"
+    },
+    "com.android.htmlviewer": {
+        "label": "HTML Viewer",
+        "apk_path": "/system/app/HTMLViewer/HTMLViewer.apk"
+    },
+    "com.android.vending": {
+        "label": "Google Play Store",
+        "apk_path": "/data/app/~~PzrGE1zwbrO1jvdZhVkSSg==/com.android.vending-NKIPKIn9REbObBVHBNpVHA==/base.apk"
+    },
+    "com.amazon.dee.app": {
+        "label": "Amazon Alexa",
+        "apk_path": "/data/app/~~kYxg26D3gknaHiFsQ3Zo9Q==/com.amazon.dee.app-HukfOnE-H6ky0VIkDmOkGg==/base.apk"
+    },
+    "com.google.android.apps.photos": {
+        "label": "Photos",
+        "apk_path": "/product/app/Photos/Photos.apk"
+    },
+    "com.google.android.markup": {
+        "label": "Markup",
+        "apk_path": "/product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk"
+    },
+    "com.google.android.gms": {
+        "label": "Google Play services",
+        "apk_path": "/data/app/~~gRUTomwxRpC921iIWKq3pA==/com.google.android.gms-3JO_ef7YgznbNCzjmZi88g==/PrebuiltGmsCore.apk"
+    },
+    "com.android.storagemanager": {
+        "label": "Storage Manager",
+        "apk_path": "/system_ext/priv-app/StorageManager/StorageManager.apk"
+    },
+    "com.android.printspooler": {
+        "label": "Print Spooler",
+        "apk_path": "/system/app/PrintSpooler/PrintSpooler.apk"
+    },
+    "com.android.soundpicker": {
+        "label": "Sounds",
+        "apk_path": "/system/priv-app/SoundPicker/SoundPicker.apk"
+    },
+    "com.android.dynsystem": {
+        "label": "Dynamic System Updates",
+        "apk_path": "/system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk"
+    },
+    "com.google.android.bluetooth": {
+        "label": "Bluetooth",
+        "apk_path": "/apex/com.android.btservices/app/BluetoothGoogle@342010060/BluetoothGoogle.apk"
+    },
+    "com.google.android.youtube": {
+        "label": "YouTube",
+        "apk_path": "/product/app/YouTube/YouTube.apk"
+    },
+    "com.android.server.telecom": {
+        "label": "Phone Calls",
+        "apk_path": "/system/priv-app/Telecom/Telecom.apk"
+    }
+}
