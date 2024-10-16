@@ -13,8 +13,7 @@
   
 ![](./assets/overview_architecture.png)
 ## 📺 Demo
-![Watch the demo](./assets/examples.mp4)
-
+https://github.com/user-attachments/assets/356ee6b2-86bb-417a-b24c-bbd206aafe2a
 
 ## ☀️ Introduction
 
