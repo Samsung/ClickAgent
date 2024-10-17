@@ -157,6 +157,9 @@ vllm serve OpenGVLab/InternVL2-Llama3-76B --served-model-name internlm2 --tensor
 python run.py
 ```
 
+## 📝 To-Do List
+- [ ] Evaluate the ClickAgent on open-source models (e.g. GPT-4V)
+
 ## 📖 Citation
 ```bib
 @misc{hoscilowicz2024enhancinguilocationcapabilities,

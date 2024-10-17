@@ -62,7 +62,7 @@ class FlorenceWorker(BaseModelWorker):
             print(prompt)
             metadata = [
                 {
-                    "generated_command": prompt,
+                    "generated_command":  ("What to do to execute the command? " + prompt.strip()).lower(),
                     "image": load_image(params["image"])
 
                 }

@@ -1,5 +1,5 @@
 import copy
-from api_internvl import encode_image
+from utils import encode_image
 
 
 def init_action_chat():
@@ -91,3 +91,18 @@ def print_status(chat_history):
         print('role:', chat[0])
         print(chat[1][0]['text'] + '<image>' * (len(chat[1]) - 1) + '\n')
     print('*' * 100)
+
+
+def init_eval_chat():
+    operation_history = {'role': 'system', 'content': [{'type': 'text', 'text': """You are an expert in evaluating the performance of an android navigation agent. The agent is designed to help a human user navigate the device to complete a task. Given the user's intent, action history, and the state of the screen, your goal is to decide whether the agent has successfully completed the task or not. 
+If user cannot complete task, beacuse for example: some product is out of stock. It is success. Select means click, so user has to click to select something. User do not want to click anything, so your purpose is to decide if actual screen shows the final state of the instruction.
+
+*IMPORTANT*
+Format your response into two lines as shown below:
+
+Thoughts: <your thoughts and reasoning process based>
+Status: "success" or "failure"
+Rate: 1-10 <scale in 1-10 how much convinced are you>
+"""}]}
+
+    return operation_history
