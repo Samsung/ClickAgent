@@ -156,3 +156,16 @@ vllm serve OpenGVLab/InternVL2-Llama3-76B --served-model-name internlm2 --tensor
 ```shell
 python run.py
 ```
+
+## 📖 Citation
+```bib
+@misc{hoscilowicz2024enhancinguilocationcapabilities,
+      title={Enhancing UI Location Capabilities of Autonomous Agents},
+      author={Jakub Hoscilowicz and Bartosz Maj and Bartosz Kozakiewicz and Oleksii Tymoschuk and Artur Janicki},
+      year={2024},
+      eprint={2410.11872},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2410.11872},
+}
+```
