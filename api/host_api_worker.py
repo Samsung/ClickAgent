@@ -30,6 +30,7 @@ class ApiWorker(BaseModelWorker):
             worker_id: str,
             limit_worker_concurrency: int,
             worker_host: str, worker_port: int,
+            max_workers: int = 2,  
     ):
         self.worker_addr = f"http://{worker_host}:{worker_port}"
         super().__init__(
@@ -41,8 +42,14 @@ class ApiWorker(BaseModelWorker):
             limit_worker_concurrency,
         )
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
         self.torch_type = torch.bfloat16
+        # Create a single ThreadPoolExecutor that will be reused
+        self.executor = ThreadPoolExecutor(max_workers=max_workers)
+        
+    def __del__(self):
+        # Clean up the executor when the object is destroyed
+        if hasattr(self, 'executor'):
+            self.executor.shutdown(wait=True)
 
     async def generate_decision(
             self,
@@ -89,9 +96,9 @@ class ApiWorker(BaseModelWorker):
         print("internvl describe", end - start)
         start = time.time()
 
-        with ThreadPoolExecutor(max_workers=len(payload)) as executor:
-            futures = [executor.submit(query_internvl, payl) for payl in payload]
-
+        # Submit all tasks to the shared executor
+        futures = [self.executor.submit(query_internvl, payl) for payl in payload]
+        # Wait for all futures to complete and get results
         output_reflect = [future.result()['message']['content'] + "\n" for future in futures]
         statuses = []
         reflects = []
